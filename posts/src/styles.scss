@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Social media icons
+@import url(https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?c2sn1i);
+
+// Material design icons
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+
+// Reset styles
+@import "./assets/scss/reset";
+
+// Material design theme
+@import "~@angular/material/core/theming/prebuilt/deeppurple-amber";
+
+// Our own styles
+@import "./assets/scss/links";
+@import "./assets/scss/body";
+@import "./assets/scss/typography";

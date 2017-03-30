@@ -1,0 +1,19 @@
+.octo-toolbar__title {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 32px;
+}
+
+.octo-toolbar__links {
+  margin: 0 24px;
+  font-size: 20px;
+}
+
+.octo-toolbar__link {
+  color: white;
+  padding: 0 24px;
+
+  &:hover {
+    color: #ddd;
+  }
+}
