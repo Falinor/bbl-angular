@@ -5,7 +5,7 @@ import { MaterialModule } from '@angular/material';
 import { PostRoutingModule } from './post-routing.module';
 import { PostService } from './shared/post.service';
 import { PostListComponent } from './post-list/post-list.component';
-import { CommentComponent } from './comment/comment/comment.component';
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   imports: [
