@@ -1,0 +1,7 @@
+<form [formGroup]="colorForm" novalidate>
+  <input type="number" formControlName="red">
+  <p *ngIf="controls['red'].hasError('minValue')">minValue Error</p>
+  <p *ngIf="controls['red'].hasError('maxValue')">maxValue Error</p>
+  <input type="number" formControlName="green">
+  <input type="number" formControlName="blue">
+</form>
